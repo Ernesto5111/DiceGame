@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5DC">
+
+
+    <TextView
+        android:id="@+id/tytul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Autor: Ernest Forszmanowicz"
+        android:background="#E44C4C"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_rzut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RZUĆ KOŚĆMI"
+        android:background="#D269E1"/>
+
+    <TextView
+        android:id="@+id/wynik_losowania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wynik_gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/liczba_rzutow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba rzutów: 0"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ WYNIK"
+        android:background="#D269E1"/>
+
+
+
+</LinearLayout>
